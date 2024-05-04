@@ -1,0 +1,19 @@
+.input__container {
+  width: 100%;
+  margin: 1.4rem 0;
+  display: flex;
+  flex-direction: column;
+  .input__label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0.2rem;
+  }
+  .input_single {
+    width: 100%;
+    border: 1px solid rgb(217, 215, 215);
+    border-radius: 6px;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+  }
+}
