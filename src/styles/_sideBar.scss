@@ -1,0 +1,24 @@
+.navbar_container {
+  display: flex;
+  width: 100vw;
+  &_left {
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    background-color: #bd1212;
+  }
+  &_right {
+    width: 100%;
+    .content {
+      padding: 6px;
+    }
+    &_topBar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 30px;
+      background-color: rgb(231, 242, 252);
+      padding: 4px 8px;
+    }
+  }
+}
